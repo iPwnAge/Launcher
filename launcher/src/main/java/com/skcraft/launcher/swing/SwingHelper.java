@@ -343,7 +343,7 @@ public final class SwingHelper {
      * Focus a component.
      *
      * <p>The focus call happens in {@link javax.swing.SwingUtilities#invokeLater(Runnable)}.</p>
-     * 
+     *
      * @param component the component
      */
     public static void focusLater(@NonNull final Component component) {
@@ -456,7 +456,7 @@ public final class SwingHelper {
 
     public static void setSwingProperties(String appName) {
         UIManager.getDefaults().put("SplitPane.border", BorderFactory.createEmptyBorder());
-        System.setProperty("com.apple.mrj.application.apple.menu.about.name", appName);
+        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "iPwnAge Launcher");
         System.setProperty("apple.laf.useScreenMenuBar", "true");
     }
 }

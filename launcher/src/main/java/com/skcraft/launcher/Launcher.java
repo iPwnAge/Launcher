@@ -419,7 +419,7 @@ public final class Launcher {
             public void run() {
                 try {
                     Launcher launcher = createFromArguments(args);
-                    SwingHelper.setSwingProperties(tr("launcher.appTitle", launcher.getVersion()));
+                    SwingHelper.setSwingProperties("iPwnAge Launcher");
                     UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
                     launcher.showLauncherWindow();
                 } catch (Throwable t) {

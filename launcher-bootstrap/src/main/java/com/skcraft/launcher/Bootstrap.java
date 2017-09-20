@@ -37,6 +37,8 @@ public class Bootstrap {
     private final String[] originalArgs;
 
     public static void main(String[] args) throws Throwable {
+        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "iPwnAge Launcher");
+        System.setProperty("apple.laf.useScreenMenuBar", "true");
         SimpleLogFormatter.configureGlobalLogger();
         SharedLocale.loadBundle("com.skcraft.launcher.lang.Bootstrap", Locale.getDefault());
 

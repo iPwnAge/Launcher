@@ -148,3 +148,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+#Mac stuff
+.DS_Store

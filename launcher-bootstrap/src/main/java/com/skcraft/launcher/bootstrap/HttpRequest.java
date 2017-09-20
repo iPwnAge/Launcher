@@ -110,6 +110,7 @@ public class HttpRequest implements Closeable, ProgressObservable {
             conn.setRequestMethod(method);
             conn.setUseCaches(false);
             conn.setDoOutput(true);
+            conn.setInstanceFollowRedirects(true);
             conn.setReadTimeout(READ_TIMEOUT);
 
             conn.connect();
